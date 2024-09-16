@@ -1,0 +1,10 @@
+Mantik : verilen dizinin herhangi bir yerinden bir pivot secilir, pivottan buyuk olan elemanlari sagina
+    kucuk olanlari soluna geciriyoruz. Bu islemi yaptiktan sonra pivot elemanin sagindaki ve solundaki dizilerden
+    ayri ayri pivot elemanlar secilir ve o dizilerde kendi icerisinde ayni islem yapilir
+
+    en kötü O(n^2)
+    ortalama olarak O(nlogn)
+
+    Memory : en kötü durumda O(n) memory'i çok kullanıyor
+
+    kural : memory'i çok kullanırsak hız çok artar
